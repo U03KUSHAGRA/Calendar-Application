@@ -1,0 +1,21 @@
+/* Import Tailwind styles */
+@tailwind base;  /* Tailwind's base styles */
+@tailwind components;  /* Tailwind's component styles */
+@tailwind utilities;  /* Tailwind's utility classes */
+
+/* Custom global styles */
+body {
+  margin: 0;  /* Remove default margin */
+  padding: 0;  /* Remove default padding */
+  font-family: 'Roboto', sans-serif;  /* Set global font */
+  font-size: 16px;  /* Set base font size */
+  background-color: #f7f9fc;  /* Light background color */
+  line-height: 1.6;  /* Set line height for readability */
+  color: #4a4a4a;  /* Softer dark gray text color */
+}
+
+code {
+  font-family: 'Fira Code', Menlo, Monaco, Consolas, 'Courier New', monospace;  /* Set code font */
+  font-size: 14px;  /* Set code font size */
+  color: #0077cc;  /* Code color to match the blue theme */
+}

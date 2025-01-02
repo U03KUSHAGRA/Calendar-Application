@@ -1,0 +1,102 @@
+/* src/App.css */
+
+/* Global Styles */
+body {
+  font-family: 'Roboto', Arial, sans-serif; /* Set default font family */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-color: #f7f9fc; /* Light background for better contrast */
+  color: #333333; /* Darker text for readability */
+}
+
+.App {
+  text-align: center; /* Center-align text */
+  padding: 20px; /* Add padding inside the app */
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #0077cc; /* Modern blue tone */
+  padding: 12px 24px; /* Add padding */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+}
+
+nav ul {
+  list-style: none; /* Remove default list styling */
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
+  display: flex; /* Use flexbox */
+  gap: 24px; /* Set gap between items */
+  justify-content: center; /* Center items */
+  align-items: center; /* Vertically align items */
+}
+
+nav ul li a {
+  color: #ffffff; /* White text color */
+  text-decoration: none; /* Remove underline */
+  font-weight: 500; /* Set font weight */
+  font-size: 16px; /* Set font size */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+nav ul li a:hover {
+  color: #ffcc00; /* Brighter interactive gold on hover */
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Grid and Company Cards */
+.grid {
+  display: grid; /* Use CSS Grid layout */
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); /* Auto-fill columns with minimum width */
+  gap: 20px; /* Set gap between items */
+  margin: 30px 0; /* Vertical margin */
+  padding: 0 10px; /* Padding on left and right */
+}
+
+.company-card {
+  background-color: #ffffff; /* White background */
+  border: 1px solid #e0e6ed; /* Light border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding inside card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.company-card:hover {
+  transform: scale(1.08); /* Slightly scale up the card on hover */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.company-card.red {
+  background-color: #ffefef; /* Softer red for overdue */
+}
+
+.company-card.yellow {
+  background-color: #fffde7; /* Softer yellow for due today */
+}
+
+/* Buttons */
+button {
+  background-color: #0077cc; /* Blue background */
+  color: #ffffff; /* White text color */
+  border: none; /* No border */
+  padding: 12px 20px; /* Padding inside the button */
+  border-radius: 6px; /* Rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+  font-size: 16px; /* Set font size */
+  font-weight: 500; /* Set font weight */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+button:hover {
+  background-color: #005fa3; /* Darker blue on hover */
+}
+
+/* Footer */
+footer {
+  background-color: #333333; /* Dark background for footer */
+  color: #ffffff; /* White text in footer */
+  text-align: center; /* Center-align footer text */
+  padding: 20px; /* Add padding */
+  font-size: 14px; /* Smaller font size */
+}
