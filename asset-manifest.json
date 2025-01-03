@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/company-app/static/css/main.2cf681bf.css",
-    "main.js": "/company-app/static/js/main.51f90286.js",
-    "static/js/488.1f17649e.chunk.js": "/company-app/static/js/488.1f17649e.chunk.js",
-    "index.html": "/company-app/index.html",
-    "main.2cf681bf.css.map": "/company-app/static/css/main.2cf681bf.css.map",
-    "main.51f90286.js.map": "/company-app/static/js/main.51f90286.js.map",
-    "488.1f17649e.chunk.js.map": "/company-app/static/js/488.1f17649e.chunk.js.map"
+    "main.css": "/Calendar-Application/static/css/main.2cf681bf.css",
+    "main.js": "/Calendar-Application/static/js/main.0708d80e.js",
+    "static/js/488.1f17649e.chunk.js": "/Calendar-Application/static/js/488.1f17649e.chunk.js",
+    "index.html": "/Calendar-Application/index.html",
+    "main.2cf681bf.css.map": "/Calendar-Application/static/css/main.2cf681bf.css.map",
+    "main.0708d80e.js.map": "/Calendar-Application/static/js/main.0708d80e.js.map",
+    "488.1f17649e.chunk.js.map": "/Calendar-Application/static/js/488.1f17649e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2cf681bf.css",
-    "static/js/main.51f90286.js"
+    "static/js/main.0708d80e.js"
   ]
 }
